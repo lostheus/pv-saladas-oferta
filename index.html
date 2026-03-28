@@ -25,6 +25,9 @@
     </noscript>
     <!-- End Meta Pixel Code -->
 
+    <link rel="preload" href="img-pote-1.jpg" as="image">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -33,13 +36,13 @@
     <header class="hero section">
         <div class="container fade-up">
             <div class="logo-wrapper" style="margin-bottom: 40px; display: flex; justify-content: center;">
-                <img src="logo.png?v=6" alt="Nutri Aurora Prado Logo" style="max-height: 160px; width: auto; object-fit: contain;">
+                <img src="logo.png?v=6" alt="Nutri Aurora Prado Logo" width="300" height="160" style="max-height: 160px; width: auto; object-fit: contain; aspect-ratio: 15/8;">
             </div>
             
             <h1>Você tenta comer saudável, mas a salada <span>murcha antes de você comer?</span></h1>
             
             <div class="hero-image-wrapper fade-up" style="margin: 30px 0; max-width: 650px; width: 100%;">
-                <img src="img-pote-1.jpg" alt="Saladas prontas no pote" loading="lazy" style="border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.3); border: 4px solid rgba(255,255,255,0.1);">
+                <img src="img-pote-1.jpg" alt="Saladas prontas no pote" fetchpriority="high" width="650" height="434" style="border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.3); border: 4px solid rgba(255,255,255,0.1); width: 100%; height: auto; aspect-ratio: 650/434;">
             </div>
             
             <p class="subheadline fade-up">
@@ -72,7 +75,7 @@
             </div>
 
             <div class="fade-up" style="margin: 40px auto; max-width: 600px;">
-                <img src="imagens-saladas/imagem-pote-separado (1).jpg" alt="Organização perfeita na geladeira" loading="lazy" style="width: 100%; border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.2);">
+                <img src="imagens-saladas/imagem-pote-separado (1).jpg" alt="Organização perfeita na geladeira" loading="lazy" width="600" height="600" style="width: 100%; height: auto; aspect-ratio: 1/1; border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.2);">
             </div>
 
             <div class="fade-up">
@@ -205,7 +208,7 @@
                 <!-- Bônus 1 -->
                 <div class="bonus-card glass-card fade-up">
                     <div class="bonus-img">
-                        <img src="img-smooths.jpg?v=3" alt="Smoothies Detox" loading="lazy">
+                        <img src="img-smooths.jpg?v=3" alt="Smoothies Detox" loading="lazy" width="400" height="400" style="width: 100%; height: auto; aspect-ratio: 1/1;">
                     </div>
                     <h3 class="bonus-title">SMOOTHIES DETOX</h3>
                     <p class="bonus-amount">20 RECEITAS</p>
@@ -218,7 +221,7 @@
                 <!-- Bônus 2 -->
                 <div class="bonus-card glass-card fade-up">
                     <div class="bonus-img">
-                         <img src="10-receitas-de-shots-para-imunidade.png" alt="10 Shots para Imunidade" loading="lazy">
+                         <img src="10-receitas-de-shots-para-imunidade.png" alt="10 Shots para Imunidade" loading="lazy" width="400" height="400" style="width: 100%; height: auto; aspect-ratio: 1/1;">
                     </div>
                     <h3 class="bonus-title">10 SHOTS PARA AUMENTAR A IMUNIDADE</h3>
                     <p class="bonus-amount">Imunidade e saúde em dia</p>
@@ -231,7 +234,7 @@
                 <!-- Bônus 3 -->
                 <div class="bonus-card glass-card fade-up">
                     <div class="bonus-img">
-                         <img src="img-agua-saborizada.jpg?v=3" alt="Águas Saborizadas" loading="lazy">
+                         <img src="img-agua-saborizada.jpg?v=3" alt="Águas Saborizadas" loading="lazy" width="400" height="400" style="width: 100%; height: auto; aspect-ratio: 1/1;">
                     </div>
                     <h3 class="bonus-title">ÁGUAS SABORIZADAS</h3>
                     <p class="bonus-amount">15 RECEITAS</p>
@@ -257,7 +260,7 @@
                 </div>
                 
                 <div class="offer-mockup" style="background: transparent; height: auto;">
-                    <img src="imagens-saladas/receitas-de-saladas.webp" alt="Coleção de Receitas de Salada" style="width: 100%; max-width: 450px; border-radius: 12px; margin: 0 auto; display: block; box-shadow: 0 10px 40px rgba(0,0,0,0.15);">
+                    <img src="imagens-saladas/receitas-de-saladas.webp" alt="Coleção de Receitas de Salada" loading="lazy" width="450" height="450" style="width: 100%; height: auto; max-width: 450px; aspect-ratio: 1/1; border-radius: 12px; margin: 0 auto; display: block; box-shadow: 0 10px 40px rgba(0,0,0,0.15);">
                 </div>
 
                 <ul class="offer-includes">
@@ -288,7 +291,7 @@
             
             <div class="expert-grid">
                 <div class="expert-photo fade-up">
-                    <img src="assets/expert.png" alt="Nutricionista Aurora Prado">
+                    <img src="assets/expert.png" alt="Nutricionista Aurora Prado" loading="lazy" width="400" height="400" style="width: 100%; height: auto; aspect-ratio: 1/1;">
                 </div>
                 <div class="expert-text fade-up">
                     <p>Minhas receitas de Saladas no Pote e Molhos Irresistíveis sempre fizeram sucesso na internet. Resolvi reunir as 60 melhores receitas em um único lugar e compartilhar esse conhecimento com você também.</p>
